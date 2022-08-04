@@ -102,3 +102,9 @@ run sslsplit:
 ```
 sslsplit -D -X out.pcap -k key.pem -c cert.pem ssl 127.0.0.1 8081
 ```
+
+## NTP Spoofing
+
+Delorean is a tool used for spoofing different times over NTP:
+https://github.com/PentesterES/Delorean
+
